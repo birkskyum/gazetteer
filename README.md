@@ -1,7 +1,5 @@
 ## Gazetteer
 
-[![build status](https://secure.travis-ci.org/mapbox/gazetteer.png)](http://travis-ci.org/mapbox/gazetteer)
-
 An index of places for maps, organized into a collection of machine-readable files that conforms to a [Gazetteer 1.1 spec](./gazetteer-spec/1.1/README.md).
 
 ### Usage
@@ -12,7 +10,7 @@ This package includes:
 - A validation utility for verifying a JSON object conforms to the [Gazetteer 1.1 specification](./gazetteer-spec/1.1/README.md).
 
 ```js
-import { worldwide, validate } from '@mapbox/gazetteer';
+import { worldwide, validate } from '@maplibre/gazetteer';
 
 const { roadNetwork, settlements } = worldwide;
 

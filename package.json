@@ -1,11 +1,11 @@
 {
-  "name": "@mapbox/gazetteer",
+  "name": "@maplibre/gazetteer",
   "version": "5.1.0",
   "description": "Place bookmarks for maps",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mapbox/gazetteer.git"
+    "url": "git://github.com/maplibre/gazetteer.git"
   },
   "keywords": [
     "reference",
@@ -14,9 +14,9 @@
   "author": "MapLibre",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mapbox/gazetteer/issues"
+    "url": "https://github.com/maplibre/gazetteer/issues"
   },
-  "homepage": "https://github.com/mapbox/gazetteer",
+  "homepage": "https://github.com/maplibre/gazetteer",
   "scripts": {
     "format": "prettier --write '**/*.json' '**/*.js'",
     "test": "node test.js"
