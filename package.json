@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@hapi/joi": "^15.0.3",
-    "@mapbox/geojsonhint": "^3.0.1"
+    "@mapbox/geojsonhint": "^3.1.0"
   },
   "devDependencies": {
     "husky": "^8.0.1",
